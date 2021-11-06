@@ -1,29 +1,290 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
-
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-           HI TÔI LÀ BÁU LÊ
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+﻿<body>
+    <!--Start Preloader-->
+    <div class="preloader">
+        <div class="d-table">
+            <div class="d-table-cell align-middle">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+    <!--End Preloader-->
+    <!--start header-->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!--Logo-->
+                   
+                    <a class="logo" href="#"><img src="~/Content/assets/images/logo.png" alt="logo" style="width:100px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"><i class="icofont-navigation-menu"></i></span>
+                    </button>
+                    <!--navbar links-->
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" data-scroll-nav="0">HANDRAFT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about" data-scroll-nav="1">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#product" data-scroll-nav="2">Products</a>
+                            </li>
+                           
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact" data-scroll-nav="3">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--end header-->
+    <!--start home area-->
+    <section id="home-area" data-scroll-index="0" class="animation-bg">
+        <div class="container">
+            <div class="row">
+                <!--start caption-->
+                <div class="col-md-6">
+                    <div class="caption">
+                        <h1>Best And Smart Product</h1>
+                        <h2>$124.00</h2>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <!--end caption-->
+                <!--start caption image-->
+                <div class="col-md-6">
+                    <div class="caption-img animation-jump text-center">
+                        <img src="assets/images/head-phone.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <!--end caption image-->
+            </div>
+        </div>
+    </section>
+    <!--end home area-->
+    <!--start feature area-->
+    <section id="about" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <!--start section heading-->
+                <div class="col-lg-8" style="margin-top:1rem;">
+                    <div class="section-heading">
+                        <h5>Features</h5>
+                        <h2>Our Products Outstanding Features</h2>
+                    </div>
+                </div>
+                <!--end section heading-->
+            </div>
+            <div class="row">
+                <!--start feature single-->
+                <div class="col-md-4">
+                    <div class="feature-single text-center wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="icon">
+                            <i class="flaticon-target"></i>
+                        </div>
+                        <h3>Fashionable</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, animi!</p>
+                    </div>
+                </div>
+                <!--end feature single-->
+                <!--start feature single-->
+                <div class="col-md-4">
+                    <div class="feature-single text-center wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <div class="icon">
+                            <i class="flaticon-money"></i>
+                        </div>
+                        <h3>Easy Payment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, animi!</p>
+                    </div>
+                </div>
+                <!--end feature single-->
+                <!--start feature single-->
+                <div class="col-md-4">
+                    <div class="feature-single text-center wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.8s">
+                        <div class="icon">
+                            <i class="flaticon-shopping-cart"></i>
+                        </div>
+                        <h3>Free Delivery</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, animi!</p>
+                    </div>
+                </div>
+                <!--end feature single-->
+            </div>
+        </div>
+    </section>
+    <!--end feature area-->
+    <!--start about area-->
+    <section id="product">
+        <div class="container">
+            <!--start about single-->
+            <div class="about-single">
+                <div class="about-bg animation-jump"></div>
+                <div class="row">
+                    <!--start about image-->
+                    <div class="col-md-6">
+                        <div class="about-img bg1 text-center">
+                            <img src="~/Content/assets/images/terrarium.jpg" class="img-fluid" alt="">
+                            
+                        </div>
+                    </div>
+                    <!--end about image-->
+                    <!--start about content-->
+                    <div class="col-md-6">
+                        <div class="about-cont">
+                            <h5>Headphone</h5>
+                            <h2>Wireless Headphone</h2>
+                            <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. </p>
+                            <ul>
+                                <li><i class="icofont-check"></i> Wireless Connection Headphones</li>
+                                <li><i class="icofont-check"></i> Voice assistants</li>
+                                <li><i class="icofont-check"></i> Microphones and controls</li>
+                            </ul>
+                            <h3>$199.00</h3>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <!--end about content-->
+                </div>
+            </div>
+            <!--end about single-->
+            <!--start about single-->
+            <div class="about-single right">
+                <div class="row">
+                    <!--start about content-->
+                    <div class="col-md-6">
+                        <div class="about-cont right">
+                            <h5>Headphone</h5>
+                            <h2>Blutooth Device</h2>
+                            <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
+                            <ul>
+                                <li><i class="icofont-check"></i> Wireless Connection Headphones</li>
+                                <li><i class="icofont-check"></i> Voice assistants</li>
+                                <li><i class="icofont-check"></i> Microphones and controls</li>
+                                <li><i class="icofont-check"></i> Volume limiting</li>
+                            </ul>
+                            <h3>$399.00</h3>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <!--end about content-->
+                    <!--start about image-->
+                    <div class="col-md-6">
+                        <div class="about-img text-center wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <img src="~/Content/assets/images/terrarium.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!--end about image-->
+                </div>
+            </div>
+            <!--end about single-->
+            <!--start about single-->
+            <div class="about-single">
+                <div class="about-bg two"></div>
+                <div class="row">
+                    <!--start about image-->
+                    <div class="col-md-6">
+                        <div class="about-img bg3 text-center wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <img src="~/Content/assets/images/terrarium.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!--end about image-->
+                    <!--start about content-->
+                    <div class="col-md-6">
+                        <div class="about-cont">
+                            <h5>Headphone</h5>
+                            <h2>Modern Digital Watch</h2>
+                            <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
+                            <ul>
+                                <li><i class="icofont-check"></i> Wireless Connection Headphones</li>
+                                <li><i class="icofont-check"></i> Voice assistants</li>
+                                <li><i class="icofont-check"></i> Microphones and controls</li>
+                                <li><i class="icofont-check"></i> Volume limiting</li>
+                            </ul>
+                            <h3>$280.00</h3>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <!--end about content-->
+                </div>
+            </div>
+            <!--end about single-->
+        </div>
+    </section>
+    <!--end about area-->
+    <!--start newsletter area-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <!--start section heading-->
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="section-heading">
+                        <h5>Newsletter</h5>
+                        <h2>Subscribe For Product Update</h2>
+                    </div>
+                </div>
+                <!--end section heading-->
+            </div>
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="newsletter-form">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="input name">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                        <i class="icofont-user"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="input email">
+                                        <input type="email" class="form-control" placeholder="Name">
+                                        <i class="icofont-email"></i>
+                                        <button type="submit">Subscribe Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end newsletter area-->
+    <!--start video area-->
+    <section id="video-area">
+        <div class="video-area-bg"></div>
+        <div class="container">
+            <div class="row">
+                <!--start video content-->
+                <div class="col-md-8" style="padding-left:2rem;">
+                    <div class="video-cont">
+                        <h2>CONTAC</h2>
+                        <p>Phone: </p>
+                        <p>Mail</p>
+                    </div>
+                </div>
+                <!--end video content-->
+                <!--start video box-->
+                <div class="col-md-4">
+                    <div class="video-box d-table text-center">
+                        <div class="d-table-cell align-middle">
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=om4qTKMuPPs"><i class="icofont-ui-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--end video box-->
+            </div>
+        </div>
+    </section>
+    <!--end video area-->
+    <!--start why choose area-->
+   
+    <!--end contact area-->
+</body>

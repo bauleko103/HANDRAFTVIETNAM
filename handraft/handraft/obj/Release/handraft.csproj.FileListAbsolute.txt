@@ -80,3 +80,4 @@ G:\HANDRAFT_VIETNAM\HANDRAFTVIETNAM\handraft\handraft\bin\EntityFramework.dll
 G:\HANDRAFT_VIETNAM\HANDRAFTVIETNAM\handraft\handraft\bin\EntityFramework.SqlServer.dll
 G:\HANDRAFT_VIETNAM\HANDRAFTVIETNAM\handraft\handraft\bin\EntityFramework.xml
 G:\HANDRAFT_VIETNAM\HANDRAFTVIETNAM\handraft\handraft\bin\EntityFramework.SqlServer.xml
+G:\HANDRAFT_VIETNAM\HANDRAFTVIETNAM\handraft\handraft\obj\Release\handraft.csproj.CopyComplete
